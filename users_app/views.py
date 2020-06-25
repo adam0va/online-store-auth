@@ -22,8 +22,10 @@ class RegisterView(APIView):
 
 
 class UserInfoView(APIView):
-    def get(self, request: Request):
+    def get(self, request):
+        print(request.user)
         serializer = UserSerializer(instance=request.user)
+        print(serializer.data)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
 

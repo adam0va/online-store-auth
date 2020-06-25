@@ -146,3 +146,390 @@ Watching for file changes with StatReloader
 "POST /apps/ HTTP/1.1" 201 38
 "POST /apps/ HTTP/1.1" 201 39
 "GET /apps/ HTTP/1.1" 200 160
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /register/ HTTP/1.1" 201 489
+Bad Request: /register/
+"POST /register/ HTTP/1.1" 400 43
+"POST /register/ HTTP/1.1" 201 491
+"POST /register/ HTTP/1.1" 201 494
+"POST /register/ HTTP/1.1" 201 497
+Watching for file changes with StatReloader
+"GET /users/ HTTP/1.1" 200 307
+Bad Request: /register/
+"POST /register/ HTTP/1.1" 400 43
+"POST /register/ HTTP/1.1" 201 483
+"DELETE /users/1 HTTP/1.1" 301 0
+"GET /users/1/ HTTP/1.1" 200 55
+"DELETE /users/3 HTTP/1.1" 301 0
+"GET /users/3/ HTTP/1.1" 200 48
+"GET /users/ HTTP/1.1" 200 354
+"POST /register/ HTTP/1.1" 201 486
+"POST /register/ HTTP/1.1" 201 489
+Bad Request: /register/
+"POST /register/ HTTP/1.1" 400 43
+"POST /register/ HTTP/1.1" 201 494
+"POST /register/ HTTP/1.1" 201 497
+"GET /user_info/ HTTP/1.1" 200 46
+"POST /register/ HTTP/1.1" 201 499
+"GET /user_info/ HTTP/1.1" 200 46
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 3736
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /admin/auth/user/ HTTP/1.1" 200 11181
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+"GET /static/admin/js/core.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+"GET /static/admin/js/actions.js HTTP/1.1" 304 0
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+"GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /admin/auth/user/6/change/ HTTP/1.1" 200 14378
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5753
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12322
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20218
+"GET /static/admin/css/forms.css HTTP/1.1" 304 0
+"GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+"GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /admin/auth/user/6/delete/ HTTP/1.1" 200 3195
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 409
+"POST /admin/auth/user/6/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10911
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/5/change/ HTTP/1.1" 200 14376
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/5/delete/ HTTP/1.1" 200 3192
+"POST /admin/auth/user/5/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10494
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/4/change/ HTTP/1.1" 200 14374
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/4/delete/ HTTP/1.1" 200 3189
+"GET /static/admin/css/base.css HTTP/1.1" 200 8192
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 8192
+"POST /admin/auth/user/4/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 10075
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/3/change/ HTTP/1.1" 200 14372
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/3/delete/ HTTP/1.1" 200 3186
+"POST /admin/auth/user/3/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 9660
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/12/change/ HTTP/1.1" 200 14380
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/12/delete/ HTTP/1.1" 200 3197
+"POST /admin/auth/user/12/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 9244
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/11/change/ HTTP/1.1" 200 14378
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/11/delete/ HTTP/1.1" 200 3194
+"POST /admin/auth/user/11/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 8825
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/10/change/ HTTP/1.1" 200 14376
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/10/delete/ HTTP/1.1" 200 3191
+"POST /admin/auth/user/10/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 8407
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/9/change/ HTTP/1.1" 200 14372
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/9/delete/ HTTP/1.1" 200 3186
+"POST /admin/auth/user/9/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 7992
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/8/change/ HTTP/1.1" 200 14370
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/8/delete/ HTTP/1.1" 200 3183
+"GET /static/admin/css/base.css HTTP/1.1" 200 8192
+"POST /admin/auth/user/8/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 7578
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/7/change/ HTTP/1.1" 200 14368
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/7/delete/ HTTP/1.1" 200 3180
+"GET /static/admin/css/base.css HTTP/1.1" 200 8192
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 8192
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"POST /admin/auth/user/7/delete/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 7165
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"POST /register/ HTTP/1.1" 201 486
+"GET /user_info/ HTTP/1.1" 200 46
+"POST /register/ HTTP/1.1" 201 489
+"GET /user_info/ HTTP/1.1" 200 46
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/users_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/users_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /register/ HTTP/1.1" 201 491
+"GET /user_info/ HTTP/1.1" 200 46
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/users_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/users_app/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /register/ HTTP/1.1" 201 481
+"GET /user_info/ HTTP/1.1" 200 46
+"GET /admin/ HTTP/1.1" 200 6168
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+"GET /admin/authtoken/token/ HTTP/1.1" 200 3175
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/ HTTP/1.1" 200 6168
+"GET /admin/auth/user/ HTTP/1.1" 200 8680
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /admin/auth/user/15/change/ HTTP/1.1" 200 14374
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 8192
+"GET /admin/auth/user/ HTTP/1.1" 200 8680
+Bad Request: /register/
+"POST /register/ HTTP/1.1" 400 43
+"POST /register/ HTTP/1.1" 201 483
+"GET /user_info/ HTTP/1.1" 200 46
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/users_app/views.py", line 14, in post
+    token = RefreshToken.for_user(serializer.instance)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework_simplejwt/tokens.py", line 165, in for_user
+    token = cls()
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework_simplejwt/tokens.py", line 53, in __init__
+    self.set_exp(from_time=self.current_time, lifetime=self.lifetime)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework_simplejwt/tokens.py", line 135, in set_exp
+    self.payload[claim] = datetime_to_epoch(from_time + lifetime)
+TypeError: unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+"POST /register/ HTTP/1.1" 500 15986
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /register/
+"POST /register/ HTTP/1.1" 400 43
+Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/users_app/views.py", line 14, in post
+    token = RefreshToken.for_user(serializer.instance)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework_simplejwt/tokens.py", line 165, in for_user
+    token = cls()
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework_simplejwt/tokens.py", line 53, in __init__
+    self.set_exp(from_time=self.current_time, lifetime=self.lifetime)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework_simplejwt/tokens.py", line 135, in set_exp
+    self.payload[claim] = datetime_to_epoch(from_time + lifetime)
+TypeError: unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+"POST /register/ HTTP/1.1" 500 15986
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /register/
+"POST /register/ HTTP/1.1" 400 43
+"POST /register/ HTTP/1.1" 201 478
+Internal Server Error: /user_info/
+Traceback (most recent call last):
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/utils/module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'OAuth'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 402, in initial
+    self.perform_authentication(request)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/request.py", line 373, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework_simplejwt/authentication.py", line 36, in authenticate
+    validated_token = self.get_validated_token(raw_token)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework_simplejwt/authentication.py", line 88, in get_validated_token
+    for AuthToken in api_settings.AUTH_TOKEN_CLASSES:
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/settings.py", line 168, in perform_import
+    return [import_from_string(item, setting_name) for item in val]
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/settings.py", line 168, in <listcomp>
+    return [import_from_string(item, setting_name) for item in val]
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'OAuth.tokens.ThirdPartyAppAccessToken' for API setting 'AUTH_TOKEN_CLASSES'. ModuleNotFoundError: No module named 'OAuth'.
+"GET /user_info/ HTTP/1.1" 500 18694
+Watching for file changes with StatReloader
+"POST /register/ HTTP/1.1" 201 481
+Internal Server Error: /user_info/
+Traceback (most recent call last):
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/settings.py", line 177, in import_from_string
+    return import_string(val)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/utils/module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 965, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'OAuth'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 497, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 457, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 468, in raise_uncaught_exception
+    raise exc
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 402, in initial
+    self.perform_authentication(request)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/request.py", line 220, in user
+    self._authenticate()
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/request.py", line 373, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework_simplejwt/authentication.py", line 36, in authenticate
+    validated_token = self.get_validated_token(raw_token)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework_simplejwt/authentication.py", line 88, in get_validated_token
+    for AuthToken in api_settings.AUTH_TOKEN_CLASSES:
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/settings.py", line 220, in __getattr__
+    val = perform_import(val, attr)
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/settings.py", line 168, in perform_import
+    return [import_from_string(item, setting_name) for item in val]
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/settings.py", line 168, in <listcomp>
+    return [import_from_string(item, setting_name) for item in val]
+  File "/Users/malenkijkotik/Desktop/progs/rsoi/env/lib/python3.7/site-packages/rest_framework/settings.py", line 180, in import_from_string
+    raise ImportError(msg)
+ImportError: Could not import 'OAuth.tokens.ThirdPartyAppAccessToken' for API setting 'AUTH_TOKEN_CLASSES'. ModuleNotFoundError: No module named 'OAuth'.
+"GET /user_info/ HTTP/1.1" 500 18696
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /register/
+"POST /register/ HTTP/1.1" 400 43
+"POST /register/ HTTP/1.1" 201 483
+"GET /user_info/ HTTP/1.1" 200 51
+"POST /register/ HTTP/1.1" 201 486
+"GET /user_info/ HTTP/1.1" 200 52
+"GET /admin/ HTTP/1.1" 200 6168
+"GET /admin/auth/user/ HTTP/1.1" 200 11595
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"POST /admin/auth/user/ HTTP/1.1" 200 4630
+"POST /admin/auth/user/ HTTP/1.1" 302 0
+"GET /admin/auth/user/ HTTP/1.1" 200 7145
+"GET /admin/jsi18n/ HTTP/1.1" 200 3223
