@@ -591,3 +591,6 @@ NotImplementedError: Django doesn't provide a DB representation for AnonymousUse
 "POST /register/ HTTP/1.1" 201 478
 "GET /user_info/ HTTP/1.1" 200 49
 "PATCH /change_password/ HTTP/1.1" 202 478
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 3766
