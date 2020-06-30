@@ -28,7 +28,7 @@ SECRET_KEY = 'aue70@869inetbkm(3b_+m7!*u=d@2t60uwx@0^g+rkjs@0@j#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'rsoi-online-store-auth.herokuapp.com']
 
 
 # Application definition
