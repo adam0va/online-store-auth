@@ -594,3 +594,45 @@ NotImplementedError: Django doesn't provide a DB representation for AnonymousUse
 Watching for file changes with StatReloader
 Not Found: /
 "GET / HTTP/1.1" 404 3766
+Watching for file changes with StatReloader
+"POST /register/ HTTP/1.1" 201 486
+"POST /register/ HTTP/1.1" 201 489
+"GET /user_info/ HTTP/1.1" 200 53
+Not Found: /
+"GET / HTTP/1.1" 404 3766
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+"GET /static/admin/css/base.css HTTP/1.1" 304 0
+"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+"GET /static/admin/css/login.css HTTP/1.1" 200 1233
+"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 3744
+"GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+"GET /apps/ HTTP/1.1" 200 160
+"POST /register/ HTTP/1.1" 201 478
+"GET /user_info/ HTTP/1.1" 200 49
+"POST /register/ HTTP/1.1" 201 481
+"GET /user_info/ HTTP/1.1" 200 50
+"POST /register/ HTTP/1.1" 201 481
+"GET /user_info/ HTTP/1.1" 200 50
+Watching for file changes with StatReloader
+"POST /register/ HTTP/1.1" 201 473
+Method Not Allowed: /api/api-token-auth/
+"GET /api/api-token-auth/ HTTP/1.1" 405 40
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/for_jwt.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/for_jwt.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/api-token-auth/
+"GET /api/api-token-auth/ HTTP/1.1" 405 40
+/Users/malenkijkotik/Desktop/progs/rsoi-online-store/online-store-auth/auth/for_jwt.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/api-token-auth/
+"GET /api/api-token-auth/ HTTP/1.1" 405 40
+"POST /api/api-token-auth/ HTTP/1.1" 200 473

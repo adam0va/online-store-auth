@@ -17,13 +17,19 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
 from rest_framework_simplejwt.views import TokenRefreshView, TokenVerifyView
+from auth.for_jwt import UserTokenObtainPairView
 from apps_app.views import GetTokenPairForApp, VerifyTokenForApp, RefreshTokenForApp
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    url(r'^api/api-token-auth/', UserTokenObtainPairView.as_view()),
     url(r'^api/api-token-refresh/', TokenRefreshView.as_view()),
     url(r'^api/api-token-verify/', TokenVerifyView.as_view()),
 
+    url(r'^api/app-token-auth/', GetTokenPairForApp.as_view()),
+    url(r'^api/app-token-verify/', VerifyTokenForApp.as_view()),
+    url(r'^api/app-token-refresh/', RefreshTokenForApp.as_view()),
 
     url(r'', include('auth_app.urls')),
     url(r'', include('apps_app.urls')),
